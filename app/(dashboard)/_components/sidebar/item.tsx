@@ -36,6 +36,8 @@ export const Item =({
             <Image
                 alt={name}
                 src={imageUrl}
+                // width={64}
+                // height={64}
                 onClick={()=>{}}
                 className={cn(
                 "rounded-md cursor-pointer opacity-75 hover:opacity-100 transition",
